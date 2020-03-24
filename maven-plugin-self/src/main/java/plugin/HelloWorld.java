@@ -10,5 +10,6 @@ public class HelloWorld {
 
     public static void main(String[] args) {
         ArrayList<Integer> integers = new ArrayList<Integer>();
+        System.out.println();
     }
 }
