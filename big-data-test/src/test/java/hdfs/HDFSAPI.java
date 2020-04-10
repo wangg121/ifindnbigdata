@@ -1,4 +1,4 @@
-package com.ifindn.hdfs;
+package hdfs;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
@@ -6,9 +6,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
-import sun.applet.Main;
 
-import javax.sound.midi.SoundbankResource;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -79,11 +77,11 @@ public class HDFSAPI {
 
         fs = FileSystem.get(new URI("hdfs://bigdata10:9000"),conf,"root");
 
-        /**
-         * PARAM:1.是否删除源文件
-         *       2.源文件地址
-         *       3.目的地址
-         *       4.是否进行校验
+        /*
+          PARAM:1.是否删除源文件
+                2.源文件地址
+                3.目的地址
+                4.是否进行校验
          */
         fs.copyToLocalFile(false,
                 new Path("hdfs://bigdata10:9000/bigdata0.txt"),
@@ -117,9 +115,9 @@ public class HDFSAPI {
     public void  deletHDFS() throws URISyntaxException, IOException, InterruptedException {
         fs = FileSystem.get(new URI("hdfs://bigdata10:9000"),conf,"root");
 
-        /**
-         * param:1,删除的路径
-         *       2.是否递归删除
+        /*
+          param:1,删除的路径
+                2.是否递归删除
          */
         fs.delete(new Path("hdfs://bigdata10:9000/out/cc"),true);
 

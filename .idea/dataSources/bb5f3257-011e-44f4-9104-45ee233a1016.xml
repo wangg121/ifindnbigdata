@@ -928,7 +928,7 @@
     </table>
     <table id="234" parent="3" name="init_para_app"/>
     <table id="235" parent="3" name="inv_bas_itemfundsource">
-      <Comment>	1、记录资金来源的相关信息。包括资金来源的id，百分比，可研资金数目等资金来源信息2、该改变资金来源与资金信息时产生。3、在项目信息保存时和计划编制时使用	 </Comment>
+      <Comment>	1、记录资金来源的相关信息。包括资金来源的id，百分比，可研资金数目等资金来源信息2、该改变资金来源与资金信息时产生。3、在项目信息保存时和计划编制时使用</Comment>
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="236" parent="3" name="inv_bas_iteminfo">
@@ -940,19 +940,19 @@
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="238" parent="3" name="inv_bas_prjinfo">
-      <Comment>	1、记录单项的相关信息，包括单项的id，单项的编码，单项编制的年份等。2、在新建和修改单项时产生3、在查询项目下的单项时使用	 </Comment>
+      <Comment>	1、记录单项的相关信息，包括单项的id，单项的编码，单项编制的年份等。2、在新建和修改单项时产生3、在查询项目下的单项时使用</Comment>
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="239" parent="3" name="inv_bus_frontitems">
-      <Comment>	1、记录计划上报状态月份表，包括建议计划地市上报月份，项目id等2、在进行计划状态上报时产生3、在查询计划月份时使用	 </Comment>
+      <Comment>	1、记录计划上报状态月份表，包括建议计划地市上报月份，项目id等2、在进行计划状态上报时产生3、在查询计划月份时使用</Comment>
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="240" parent="3" name="inv_bus_productplan">
-      <Comment>  1、记录计划状态容量信息表，包括建议计划网省上报容量-月份等2、在进行记录计划状态容量信息时产生3、在进行查询计划状态容量信息时使用   </Comment>
+      <Comment>  1、记录计划状态容量信息表，包括建议计划网省上报容量-月份等2、在进行记录计划状态容量信息时产生3、在进行查询计划状态容量信息时使用</Comment>
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="241" parent="3" name="inv_bus_yearpayfund">
-      <Comment>	1、记录计划资金来源值表，包括资金来源，项目id2、在进行计划资金来源值编制时产生3、在进行查询计划资金来源值时使用	 </Comment>
+      <Comment>	1、记录计划资金来源值表，包括资金来源，项目id2、在进行计划资金来源值编制时产生3、在进行查询计划资金来源值时使用</Comment>
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="242" parent="3" name="inv_bus_yearplan">
@@ -1068,7 +1068,7 @@
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="272" parent="3" name="st_bas_prjinfo">
-      <Comment>	1、记录单项的相关信息，包括单项的id，单项的编码，单项编制的年份等。2、在新建和修改单项时产生3、在查询项目下的单项时使用	 </Comment>
+      <Comment>	1、记录单项的相关信息，包括单项的id，单项的编码，单项编制的年份等。2、在新建和修改单项时产生3、在查询项目下的单项时使用</Comment>
       <Collation>utf8_general_ci</Collation>
     </table>
     <column id="273" parent="229" name="ID">
@@ -2455,7 +2455,7 @@ ITEMCODE</ColNames>
     </column>
     <column id="503" parent="236" name="GWITEMID">
       <Position>112</Position>
-      <Comment>国网项目库ID </Comment>
+      <Comment>国网项目库ID</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -2551,7 +2551,7 @@ ITEMCODE</ColNames>
     </column>
     <column id="519" parent="236" name="IMPCITYCODE">
       <Position>128</Position>
-      <Comment>导入地市编码 </Comment>
+      <Comment>导入地市编码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -2659,19 +2659,19 @@ ITEMCODE</ColNames>
     </column>
     <column id="537" parent="236" name="OTHERCOMPANYCODE">
       <Position>146</Position>
-      <Comment>其它公司编码 </Comment>
+      <Comment>其它公司编码</Comment>
       <DataType>varchar(18)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="538" parent="236" name="SSCOMPANYCODE">
       <Position>147</Position>
-      <Comment>帮扶公司编码 </Comment>
+      <Comment>帮扶公司编码</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="539" parent="236" name="JSGLCOMPANYCODE">
       <Position>148</Position>
-      <Comment>建设公司编码 </Comment>
+      <Comment>建设公司编码</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -2737,7 +2737,7 @@ ITEMCODE</ColNames>
     </column>
     <column id="550" parent="236" name="ITEMTYPEOLD">
       <Position>159</Position>
-      <Comment>旧项目类型 </Comment>
+      <Comment>旧项目类型</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -2850,7 +2850,7 @@ ITEMCODE</ColNames>
     </column>
     <column id="569" parent="236" name="ZXFLAG">
       <Position>178</Position>
-      <Comment>专项项目状态：1-保留专项项目，2-不保留专项项目 </Comment>
+      <Comment>专项项目状态：1-保留专项项目，2-不保留专项项目</Comment>
       <DataType>tinyint(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3042,13 +3042,13 @@ ITEMID</ColNames>
     </column>
     <column id="602" parent="238" name="CHGSTARTDATE">
       <Position>20</Position>
-      <Comment>调整开始日期 </Comment>
+      <Comment>调整开始日期</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="603" parent="238" name="CHGENDDATE">
       <Position>21</Position>
-      <Comment>调整结束日期 </Comment>
+      <Comment>调整结束日期</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3078,7 +3078,7 @@ ITEMID</ColNames>
     </column>
     <column id="608" parent="238" name="PRJPZNUM">
       <Position>26</Position>
-      <Comment>单项批准日期 </Comment>
+      <Comment>单项批准日期</Comment>
       <DataType>varchar(80)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3120,7 +3120,7 @@ ITEMID</ColNames>
     </column>
     <column id="615" parent="238" name="PRJSORT">
       <Position>33</Position>
-      <Comment>单项分类 </Comment>
+      <Comment>单项分类</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3132,13 +3132,13 @@ ITEMID</ColNames>
     </column>
     <column id="617" parent="238" name="PREPRJID">
       <Position>35</Position>
-      <Comment>前期单项ID </Comment>
+      <Comment>前期单项ID</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="618" parent="238" name="TJCODE">
       <Position>36</Position>
-      <Comment>统计编码 </Comment>
+      <Comment>统计编码</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3192,31 +3192,31 @@ ITEMID</ColNames>
     </column>
     <column id="627" parent="238" name="PRJKYNUMDOC">
       <Position>45</Position>
-      <Comment>可研单项数文档 </Comment>
+      <Comment>可研单项数文档</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="628" parent="238" name="PRJCSNUMDOC">
       <Position>46</Position>
-      <Comment>初设单项数文档 </Comment>
+      <Comment>初设单项数文档</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="629" parent="238" name="PRJPZNUMDOC">
       <Position>47</Position>
-      <Comment>批准单项数文档 </Comment>
+      <Comment>批准单项数文档</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="630" parent="238" name="ACTIVEPS">
       <Position>48</Position>
-      <Comment>动态评审 </Comment>
+      <Comment>动态评审</Comment>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="631" parent="238" name="SAPPRJCODE">
       <Position>49</Position>
-      <Comment>SAP单项编码 </Comment>
+      <Comment>SAP单项编码</Comment>
       <DataType>varchar(15)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3234,25 +3234,25 @@ ITEMID</ColNames>
     </column>
     <column id="634" parent="238" name="SAPDESC">
       <Position>52</Position>
-      <Comment>SAP降序 </Comment>
+      <Comment>SAP降序</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="635" parent="238" name="GETTOTALTAG">
       <Position>53</Position>
-      <Comment>获得核准总量标签 </Comment>
+      <Comment>获得核准总量标签</Comment>
       <DataType>tinyint(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="636" parent="238" name="PSTOTALTIME">
       <Position>54</Position>
-      <Comment>评审总量时间 </Comment>
+      <Comment>评审总量时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="637" parent="238" name="PSSTARTWORKTAG">
       <Position>55</Position>
-      <Comment>评审开始起效标签 </Comment>
+      <Comment>评审开始起效标签</Comment>
       <DataType>tinyint(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3378,7 +3378,7 @@ ITEMID</ColNames>
     </column>
     <column id="658" parent="238" name="GWPRJID">
       <Position>76</Position>
-      <Comment>国网单项ID </Comment>
+      <Comment>国网单项ID</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3714,25 +3714,25 @@ ITEMID</ColNames>
     </column>
     <column id="714" parent="238" name="KYELECLEN">
       <Position>132</Position>
-      <Comment>可研电量长度 </Comment>
+      <Comment>可研电量长度</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="715" parent="238" name="KYWGPLEN">
       <Position>133</Position>
-      <Comment>国网可研长度 </Comment>
+      <Comment>国网可研长度</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="716" parent="238" name="KYSPACECOUNT">
       <Position>134</Position>
-      <Comment>可研间隔数 </Comment>
+      <Comment>可研间隔数</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="717" parent="238" name="KYLINELEN">
       <Position>135</Position>
-      <Comment>可研线路长度 </Comment>
+      <Comment>可研线路长度</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3756,13 +3756,13 @@ ITEMID</ColNames>
     </column>
     <column id="721" parent="238" name="KYSTATION">
       <Position>139</Position>
-      <Comment>可研变电站 </Comment>
+      <Comment>可研变电站</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="722" parent="238" name="KYSINGLECAP">
       <Position>140</Position>
-      <Comment>可研单项容量 </Comment>
+      <Comment>可研单项容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3774,7 +3774,7 @@ ITEMID</ColNames>
     </column>
     <column id="724" parent="238" name="IMPCITYCODE">
       <Position>142</Position>
-      <Comment>导入地市编码 </Comment>
+      <Comment>导入地市编码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -3876,7 +3876,7 @@ ITEMID</ColNames>
     </column>
     <column id="741" parent="238" name="ITEMTYPEOLD">
       <Position>159</Position>
-      <Comment>旧项目类型 </Comment>
+      <Comment>旧项目类型</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -4379,145 +4379,145 @@ ITEMID</ColNames>
     </column>
     <column id="827" parent="239" name="UPPRESPACE_COUNTY">
       <Position>74</Position>
-      <Comment>建议计划县上报 </Comment>
+      <Comment>建议计划县上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="828" parent="239" name="UPPRESPACE_CITY">
       <Position>75</Position>
-      <Comment>建议计划市上报 </Comment>
+      <Comment>建议计划市上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="829" parent="239" name="UPPRESPACE_PROVINCE">
       <Position>76</Position>
-      <Comment>建议计划省上报 </Comment>
+      <Comment>建议计划省上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="830" parent="239" name="DOWNPRESPACE">
       <Position>77</Position>
-      <Comment>建议计划下达 </Comment>
+      <Comment>建议计划下达</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="831" parent="239" name="UPCOLSPACE_COUNTY">
       <Position>78</Position>
-      <Comment>综合计划县上报 </Comment>
+      <Comment>综合计划县上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="832" parent="239" name="UPCOLSPACE_CITY">
       <Position>79</Position>
-      <Comment>综合计划市上报 </Comment>
+      <Comment>综合计划市上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="833" parent="239" name="DOWNCOLSPACE">
       <Position>80</Position>
-      <Comment>综合计划下达 </Comment>
+      <Comment>综合计划下达</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="834" parent="239" name="UPCOLSPACE_PROVINCE">
       <Position>81</Position>
-      <Comment>综合计划省上报 </Comment>
+      <Comment>综合计划省上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="835" parent="239" name="UPPRESPACEMON_COUNTY">
       <Position>82</Position>
-      <Comment>建议计划县上报 </Comment>
+      <Comment>建议计划县上报</Comment>
       <DataType>decimal(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="836" parent="239" name="UPPRESPACEMON_CITY">
       <Position>83</Position>
-      <Comment>建议计划市上报 </Comment>
+      <Comment>建议计划市上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="837" parent="239" name="UPPRESPACEMON_PROVINCE">
       <Position>84</Position>
-      <Comment>建议计划省上报 </Comment>
+      <Comment>建议计划省上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="838" parent="239" name="DOWNPRESPACEMON">
       <Position>85</Position>
-      <Comment>建议计划下达月 </Comment>
+      <Comment>建议计划下达月</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="839" parent="239" name="UPCOLSPACEMON_COUNTY">
       <Position>86</Position>
-      <Comment>综合计划县上报 </Comment>
+      <Comment>综合计划县上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="840" parent="239" name="UPCOLSPACEMON_CITY">
       <Position>87</Position>
-      <Comment>综合计划市上报 </Comment>
+      <Comment>综合计划市上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="841" parent="239" name="UPCOLSPACEMON_PROVINCE">
       <Position>88</Position>
-      <Comment>综合计划省上报 </Comment>
+      <Comment>综合计划省上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="842" parent="239" name="DOWNCOLSPACEMON">
       <Position>89</Position>
-      <Comment>综合计划下达月 </Comment>
+      <Comment>综合计划下达月</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="843" parent="239" name="UPCHGSPACE_COUNTY">
       <Position>90</Position>
-      <Comment>县上报调整 </Comment>
+      <Comment>县上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="844" parent="239" name="UPCHGSPACE_CITY">
       <Position>91</Position>
-      <Comment>市上报调整 </Comment>
+      <Comment>市上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="845" parent="239" name="UPCHGSPACE_PROVINCE">
       <Position>92</Position>
-      <Comment>省上报调整 </Comment>
+      <Comment>省上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="846" parent="239" name="DOWNCHGSPACE">
       <Position>93</Position>
-      <Comment>调整下达 </Comment>
+      <Comment>调整下达</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="847" parent="239" name="UPCHGSPACEINC_COUNTY">
       <Position>94</Position>
-      <Comment>县上报调整容量 </Comment>
+      <Comment>县上报调整容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="848" parent="239" name="UPCHGSPACEINC_CITY">
       <Position>95</Position>
-      <Comment>市上报调整容量 </Comment>
+      <Comment>市上报调整容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="849" parent="239" name="UPCHGSPACEINC_PROVINCE">
       <Position>96</Position>
-      <Comment>省上报调整容量 </Comment>
+      <Comment>省上报调整容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="850" parent="239" name="DOWNCHGSPACEINC">
       <Position>97</Position>
-      <Comment>下达调整容量 </Comment>
+      <Comment>下达调整容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -5716,145 +5716,145 @@ CHGSTATE</ColNames>
     </column>
     <column id="1051" parent="240" name="UPPRESPACE_COUNTY">
       <Position>62</Position>
-      <Comment>建议计划县上报容量 </Comment>
+      <Comment>建议计划县上报容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1052" parent="240" name="UPPRESPACE_CITY">
       <Position>63</Position>
-      <Comment>建议计划市上报容量 </Comment>
+      <Comment>建议计划市上报容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1053" parent="240" name="UPPRESPACE_PROVINCE">
       <Position>64</Position>
-      <Comment>建议计划省上报容量 </Comment>
+      <Comment>建议计划省上报容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1054" parent="240" name="DOWNPRESPACE">
       <Position>65</Position>
-      <Comment>建议计划下达容量 </Comment>
+      <Comment>建议计划下达容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1055" parent="240" name="UPCOLSPACE_COUNTY">
       <Position>66</Position>
-      <Comment>综合计划县上报 </Comment>
+      <Comment>综合计划县上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1056" parent="240" name="UPCOLSPACE_CITY">
       <Position>67</Position>
-      <Comment>综合计划市上报 </Comment>
+      <Comment>综合计划市上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1057" parent="240" name="DOWNCOLSPACE">
       <Position>68</Position>
-      <Comment>综合计划下达 </Comment>
+      <Comment>综合计划下达</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1058" parent="240" name="UPCOLSPACE_PROVINCE">
       <Position>69</Position>
-      <Comment>综合计划省上报 </Comment>
+      <Comment>综合计划省上报</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1059" parent="240" name="UPPRESPACEMON_COUNTY">
       <Position>70</Position>
-      <Comment>建议计划县上报月 </Comment>
+      <Comment>建议计划县上报月</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1060" parent="240" name="UPPRESPACEMON_CITY">
       <Position>71</Position>
-      <Comment>建议计划市上报月 </Comment>
+      <Comment>建议计划市上报月</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1061" parent="240" name="UPPRESPACEMON_PROVINCE">
       <Position>72</Position>
-      <Comment>建议计划省上报月 </Comment>
+      <Comment>建议计划省上报月</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1062" parent="240" name="DOWNPRESPACEMON">
       <Position>73</Position>
-      <Comment>建议计划下达月 </Comment>
+      <Comment>建议计划下达月</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1063" parent="240" name="UPCOLSPACEMON_COUNTY">
       <Position>74</Position>
-      <Comment>综合计划县上报 </Comment>
+      <Comment>综合计划县上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1064" parent="240" name="UPCOLSPACEMON_CITY">
       <Position>75</Position>
-      <Comment>综合计划市上报 </Comment>
+      <Comment>综合计划市上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1065" parent="240" name="UPCOLSPACEMON_PROVINCE">
       <Position>76</Position>
-      <Comment>综合计划省上报 </Comment>
+      <Comment>综合计划省上报</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1066" parent="240" name="DOWNCOLSPACEMON">
       <Position>77</Position>
-      <Comment>综合计划下达月 </Comment>
+      <Comment>综合计划下达月</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1067" parent="240" name="UPCHGSPACE_COUNTY">
       <Position>78</Position>
-      <Comment>县上报调整 </Comment>
+      <Comment>县上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1068" parent="240" name="UPCHGSPACE_CITY">
       <Position>79</Position>
-      <Comment>市上报调整 </Comment>
+      <Comment>市上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1069" parent="240" name="UPCHGSPACE_PROVINCE">
       <Position>80</Position>
-      <Comment>省上报调整 </Comment>
+      <Comment>省上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1070" parent="240" name="DOWNCHGSPACE">
       <Position>81</Position>
-      <Comment>调整下达 </Comment>
+      <Comment>调整下达</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1071" parent="240" name="UPCHGSPACEINC_COUNTY">
       <Position>82</Position>
-      <Comment>县上报调整 </Comment>
+      <Comment>县上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1072" parent="240" name="UPCHGSPACEINC_CITY">
       <Position>83</Position>
-      <Comment>市上报调整 </Comment>
+      <Comment>市上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1073" parent="240" name="UPCHGSPACEINC_PROVINCE">
       <Position>84</Position>
-      <Comment>省上报调整 </Comment>
+      <Comment>省上报调整</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1074" parent="240" name="DOWNCHGSPACEINC">
       <Position>85</Position>
-      <Comment>下达调整容量 </Comment>
+      <Comment>下达调整容量</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -6716,7 +6716,7 @@ CHGSTATE</ColNames>
     </column>
     <column id="1219" parent="241" name="PAYFUND">
       <Position>6</Position>
-      <Comment>拨付资金 </Comment>
+      <Comment>拨付资金</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -10459,7 +10459,7 @@ PLANYEAR</ColNames>
     </column>
     <column id="1844" parent="246" name="JSGM">
       <Position>380</Position>
-      <Comment>建设规模 </Comment>
+      <Comment>建设规模</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -16225,13 +16225,13 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="2875" parent="271" name="CHGSTARTDATE">
       <Position>15</Position>
-      <Comment>调整开始日期 </Comment>
+      <Comment>调整开始日期</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="2876" parent="271" name="CHGENDDATE">
       <Position>16</Position>
-      <Comment>调整结束日期 </Comment>
+      <Comment>调整结束日期</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -16339,7 +16339,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="2894" parent="271" name="CONFIRMCOND">
       <Position>34</Position>
-      <Comment>批复COND </Comment>
+      <Comment>批复COND</Comment>
       <DataType>varchar(80)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -16375,7 +16375,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="2900" parent="271" name="FUNDLASTYEAR">
       <Position>40</Position>
-      <Comment>上年累计资金计划 </Comment>
+      <Comment>上年累计资金计划</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -16423,7 +16423,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="2908" parent="271" name="PREITEMID">
       <Position>48</Position>
-      <Comment>前期项目id </Comment>
+      <Comment>前期项目id</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -16489,7 +16489,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="2919" parent="271" name="TJCODE">
       <Position>59</Position>
-      <Comment>统计编码 </Comment>
+      <Comment>统计编码</Comment>
       <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -16573,31 +16573,31 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="2933" parent="271" name="SAPCATEGORY">
       <Position>73</Position>
-      <Comment>sap类型 </Comment>
+      <Comment>sap类型</Comment>
       <DataType>varchar(12)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="2934" parent="271" name="SAPDESC">
       <Position>74</Position>
-      <Comment>sap排序 </Comment>
+      <Comment>sap排序</Comment>
       <DataType>varchar(200)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="2935" parent="271" name="SAPUSER">
       <Position>75</Position>
-      <Comment>sap用户 </Comment>
+      <Comment>sap用户</Comment>
       <DataType>varchar(25)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="2936" parent="271" name="PSITEMSTATE">
       <Position>76</Position>
-      <Comment>评审项目状态 </Comment>
+      <Comment>评审项目状态</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="2937" parent="271" name="ISEMERGENCY">
       <Position>77</Position>
-      <Comment>是否紧急 </Comment>
+      <Comment>是否紧急</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -16657,7 +16657,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="2947" parent="271" name="GWITEMID">
       <Position>87</Position>
-      <Comment>国网项目id </Comment>
+      <Comment>国网项目id</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -17397,13 +17397,13 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3070" parent="271" name="EMERGENCYFLAG">
       <Position>210</Position>
-      <Comment>紧急项目标准 </Comment>
+      <Comment>紧急项目标准</Comment>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3071" parent="271" name="COMBOFIELD12">
       <Position>211</Position>
-      <Comment>下拉公用字段12 </Comment>
+      <Comment>下拉公用字段12</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -17577,7 +17577,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3100" parent="271" name="IMPCITYCODE">
       <Position>240</Position>
-      <Comment>引入单位编码 </Comment>
+      <Comment>引入单位编码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -17613,13 +17613,13 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3106" parent="271" name="ITEMVERSION">
       <Position>246</Position>
-      <Comment>项目版本 </Comment>
+      <Comment>项目版本</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3107" parent="271" name="ITEMTYPEOLD">
       <Position>247</Position>
-      <Comment>项目类型 </Comment>
+      <Comment>项目类型</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -17930,7 +17930,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3159" parent="271" name="CONSTRUCTION_EFFECT">
       <Position>299</Position>
-      <Comment>建设成效 </Comment>
+      <Comment>建设成效</Comment>
       <DataType>text|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18037,7 +18037,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3177" parent="272" name="KYLINELEN">
       <Position>15</Position>
-      <Comment>可研线路长度 </Comment>
+      <Comment>可研线路长度</Comment>
       <DataType>double(18,4 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18079,13 +18079,13 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3184" parent="272" name="CHGSTARTDATE">
       <Position>22</Position>
-      <Comment>调整开始时间 </Comment>
+      <Comment>调整开始时间</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3185" parent="272" name="CHGENDDATE">
       <Position>23</Position>
-      <Comment>调整结束时间 </Comment>
+      <Comment>调整结束时间</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18115,7 +18115,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3190" parent="272" name="PRJPZNUM">
       <Position>28</Position>
-      <Comment>单项批准文号 </Comment>
+      <Comment>单项批准文号</Comment>
       <DataType>varchar(80)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18157,7 +18157,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3197" parent="272" name="PRJSORT">
       <Position>35</Position>
-      <Comment>单项排序码 </Comment>
+      <Comment>单项排序码</Comment>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18169,13 +18169,13 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3199" parent="272" name="PREPRJID">
       <Position>37</Position>
-      <Comment>前期单项id </Comment>
+      <Comment>前期单项id</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3200" parent="272" name="TJCODE">
       <Position>38</Position>
-      <Comment>统计编码 </Comment>
+      <Comment>统计编码</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18229,31 +18229,31 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3209" parent="272" name="PRJKYNUMDOC">
       <Position>47</Position>
-      <Comment>单项可研文号 </Comment>
+      <Comment>单项可研文号</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3210" parent="272" name="PRJCSNUMDOC">
       <Position>48</Position>
-      <Comment>单项初设文号 </Comment>
+      <Comment>单项初设文号</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3211" parent="272" name="PRJPZNUMDOC">
       <Position>49</Position>
-      <Comment>单项批准文号 </Comment>
+      <Comment>单项批准文号</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3212" parent="272" name="ACTIVEPS">
       <Position>50</Position>
-      <Comment>当前评审 </Comment>
+      <Comment>当前评审</Comment>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3213" parent="272" name="SAPPRJCODE">
       <Position>51</Position>
-      <Comment>sap单项编码 </Comment>
+      <Comment>sap单项编码</Comment>
       <DataType>varchar(12)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18271,25 +18271,25 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3216" parent="272" name="SAPDESC">
       <Position>54</Position>
-      <Comment>sap排序 </Comment>
+      <Comment>sap排序</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3217" parent="272" name="GETTOTALTAG">
       <Position>55</Position>
-      <Comment>标记总合 </Comment>
+      <Comment>标记总合</Comment>
       <DataType>tinyint(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3218" parent="272" name="PSTOTALTIME">
       <Position>56</Position>
-      <Comment>评审合计时间 </Comment>
+      <Comment>评审合计时间</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="3219" parent="272" name="PSSTARTWORKTAG">
       <Position>57</Position>
-      <Comment>评审开始标记 </Comment>
+      <Comment>评审开始标记</Comment>
       <DataType>tinyint(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18325,7 +18325,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3225" parent="272" name="GWPRJID">
       <Position>63</Position>
-      <Comment>国网单项id </Comment>
+      <Comment>国网单项id</Comment>
       <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18697,7 +18697,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3287" parent="272" name="IMPCITYCODE">
       <Position>125</Position>
-      <Comment>引入单位编码 </Comment>
+      <Comment>引入单位编码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -18715,7 +18715,7 @@ CONSPRJCODE</ColNames>
     </column>
     <column id="3290" parent="272" name="ITEMTYPEOLD">
       <Position>128</Position>
-      <Comment>项目类型 </Comment>
+      <Comment>项目类型</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>

@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mavenpluginself" />
+        <module name="big-data-test" />
+        <module name="design-pattern" />
+        <module name="maven-plugin-self" />
       </profile>
     </annotationProcessing>
   </component>

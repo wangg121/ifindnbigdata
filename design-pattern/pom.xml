@@ -9,20 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>maven-plugin-self</artifactId>
-    <packaging>maven-plugin</packaging>
-
+    <artifactId>design-pattern</artifactId>
     <dependencies>
+
         <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.6.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugin-tools</groupId>
-            <artifactId>maven-plugin-annotations</artifactId>
-            <version>3.6.0</version>
-            <type>pom</type>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>2.2.2</version>
         </dependency>
     </dependencies>
 
