@@ -11,6 +11,10 @@
         <module>maven-plugin-self</module>
         <module>big-data-test</module>
         <module>design-pattern</module>
+        <module>redis</module>
+        <module>thread</module>
+        <module>io</module>
+        <module>socket</module>
     </modules>
     <packaging>pom</packaging>
 
