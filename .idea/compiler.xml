@@ -8,8 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="big-data-test" />
         <module name="design-pattern" />
+        <module name="io" />
         <module name="maven-plugin-self" />
+        <module name="redis" />
+        <module name="socket" />
+        <module name="thread" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
