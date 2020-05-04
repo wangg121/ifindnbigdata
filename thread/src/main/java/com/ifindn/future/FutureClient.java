@@ -13,6 +13,7 @@ public class FutureClient {
         new Thread(new Runnable() {
             @Override
             public void run() {
+                System.out.println("进入线程");
                 RealData realData = new RealData();
                 data.setRealData(realData);
             }
