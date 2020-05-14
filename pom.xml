@@ -16,6 +16,11 @@
         <module>io</module>
         <module>socket</module>
         <module>activemq</module>
+        <module>jvm</module>
+        <module>dubboprovider</module>
+        <module>dubboconsumer</module>
+        <module>dubboprovider</module>
+        <module>dubboconsumer</module>
     </modules>
     <packaging>pom</packaging>
 
