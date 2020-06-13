@@ -7,21 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="activemq" />
+        <module name="autotest" />
         <module name="big-data-test" />
         <module name="design-pattern" />
         <module name="dubboconsumer" />
         <module name="dubboprovider" />
+        <module name="elasticsearch" />
+        <module name="elk" />
         <module name="io" />
         <module name="jvm" />
         <module name="maven-plugin-self" />
         <module name="myspringboot" />
         <module name="redis" />
         <module name="socket" />
+        <module name="ssm" />
         <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="dubboprovider" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="ssm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

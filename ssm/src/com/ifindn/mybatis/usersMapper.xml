@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ifindn.mybatis.usersMapper">
+
+    <!--根据id查询一个user对象-->
+
+    <select id="getUser" parameterType="int" resultType="com.ifindn.mybatis.Users">
+        select * from users where id = #{id}
+    </select>
+
+    <!--CRUD-->
+
+    <insert id="addUser" parameterType="com.ifindn.mybatis.Users">
+        insert into users (name,age) values (#{name},#{age})
+    </insert>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from users where id = #{id}
+    </delete>
+
+    <update id="updateUser" parameterType="com.ifindn.mybatis.Users">
+        update users set name=#{name},age=#{age} where id = #{id}
+    </update>
+
+    <select id="getAll" resultType="com.ifindn.mybatis.Users">
+        select * from users
+    </select>
+
+    <select id="getUserByName"   resultType="com.ifindn.mybatis.Users">
+        select * from users
+        <where>
+            <if test="_parameter != null">
+                and name like CONCAT('%',#{name,jdbcType = VARCHAR},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

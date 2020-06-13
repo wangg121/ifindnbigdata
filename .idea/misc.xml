@@ -9,11 +9,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/myspringboot/pom.xml" />
+        <option value="$PROJECT_DIR$/elk/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/dubboprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm/pom.xml" />
       </set>
     </option>
   </component>

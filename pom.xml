@@ -19,10 +19,20 @@
         <module>jvm</module>
         <module>dubboprovider</module>
         <module>dubboconsumer</module>
-        <module>dubboprovider</module>
-        <module>dubboconsumer</module>
+        <module>elasticsearch</module>
+        <module>elk</module>
+        <module>autotest</module>
+        <module>ssm</module>
     </modules>
     <packaging>pom</packaging>
+        <dependencies>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.11</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
 
     <build>
         <plugins>

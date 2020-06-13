@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="63" started-at="2020-05-27T03:53:14Z" finished-at="2020-05-27T03:53:14Z">
+    <groups>
+    </groups>
+    <test name="F:/idea_workspace/ifindnbigdata" duration-ms="63" started-at="2020-05-27T03:53:14Z" finished-at="2020-05-27T03:53:14Z">
+      <class name="MainTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MainTest@d7b1517]" name="setUp" is-config="true" duration-ms="24" started-at="2020-05-27T11:53:14Z" finished-at="2020-05-27T11:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMain()[pri:0, instance:MainTest@d7b1517]" name="testMain" duration-ms="4" started-at="2020-05-27T11:53:14Z" finished-at="2020-05-27T11:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MainTest@d7b1517]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-27T11:53:14Z" finished-at="2020-05-27T11:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MainTest -->
+    </test> <!-- F:/idea_workspace/ifindnbigdata -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
