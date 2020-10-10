@@ -20,7 +20,13 @@ public class Test1 {
 
             }
         };
+
         t.start();
+        try {
+            t.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         for (int i = 0; i < 10; i++) {
             try {
                 Thread.sleep(10);
@@ -37,3 +43,5 @@ public class Test1 {
     }
 
 }
+
+

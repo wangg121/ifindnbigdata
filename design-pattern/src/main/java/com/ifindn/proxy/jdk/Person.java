@@ -1,14 +1,12 @@
 package com.ifindn.proxy.jdk;
 
 /**
- * @author Guo Yan
- * @date 2020/3/31-18:27
+ * @Author Mr.Guo
+ * @Date 2020-07-13 22:40
  */
 public interface Person {
 
-    void findLove();
+    void buyTicket();
 
-    void seach();
-
-
+    void eat();
 }
